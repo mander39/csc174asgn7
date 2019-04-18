@@ -8,7 +8,7 @@ var surveyValueChanged = function (sender, options) {
 var defaultThemeColors = Survey
     .StylesManager
     .ThemeColors["default"];
-    defaultThemeColors["$main-color"] = "#085edd";
+    defaultThemeColors["$main-color"] = "#67badb";
     defaultThemeColors["$main-hover-color"] = "#639bed";
     defaultThemeColors["$text-color"] = "#141414";
     defaultThemeColors["$header-color"] = "#7ff07f";

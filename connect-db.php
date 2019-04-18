@@ -2,9 +2,9 @@
 // Database Variables (edit with your own server information)
 
 $server = 'localhost';
-$user = 'phonebook';
-$pass = 'phonebook';
-$db = 'phonebook';
+$user = 'phonebook2';
+$pass = 'phonebook2';
+$db = 'phonebook2';
 
 // Connect to Database
 $connection = mysqli_connect($server,$user,$pass,$db);

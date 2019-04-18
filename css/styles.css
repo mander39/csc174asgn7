@@ -1,0 +1,25 @@
+
+.navbar-brand {
+	padding-left: 200px;
+}
+
+.navbar-nav.ml-auto {
+	padding-right: 150px;
+}
+
+.titleh2 {
+	margin-top: 50px;
+}
+
+.table-fit {
+	text-align: center;
+	width: 80px;
+}
+
+.btn.btn-info.a {
+	margin-top: -20px;
+}
+
+.nav-item.d {
+	margin-right: 10px;
+}
