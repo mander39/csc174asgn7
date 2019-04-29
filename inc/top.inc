@@ -16,7 +16,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="logo.png" width="35" height="35" alt="">
+        <img src="images/logo.png" width="35" height="35" alt="">
          Survey Land
       </a>
       <div class="collapse navbar-collapse" id="navbarNav">

@@ -24,6 +24,7 @@
     </div>
     
     <footer>
+        <h2><a href="login.php">Administrator Login</a></h2>
         <h2>Citations:</h2>
         <ul>
             <li><a href="http://csc174.org/midterm/aodonne3/">Images and Info from Amanda's Midterm</a></li>

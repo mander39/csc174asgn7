@@ -16,11 +16,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <?php
-      if($logged == true){ include('scripts.inc'); }
+      if($logged == true){ include('inc/scripts.inc'); }
     ?>
   </head>
   <body>
-    <?php include('nav.inc') ?>
+    <?php include('inc/nav.inc') ?>
     <div class="container">
 
     <?php

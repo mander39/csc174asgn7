@@ -16,12 +16,12 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <?php include('nav.inc') ?>
+        <?php include('inc/nav.inc') ?>
         <div style="margin-top: 50px; padding-bottom: 20px; border-radius: 10px; max-width: 800px;" class="container">
-        <h1 style="color: #67badb;"> Car Survey </h1>
+        <h1 style="color: #67badb;"> Walt Disney World Parks Survey </h1>
         <div id="surveyElement"></div>
         <div id="surveyResult"></div>
-        <script type="text/javascript" src="./index.js"></script>
+        <script type="text/javascript" src="js/survey.js"></script>
         <div>
     </body>
 </html>
