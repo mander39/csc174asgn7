@@ -7,6 +7,6 @@ identifier: [0, 'id'],
 editable: [[1, 'firstname'], [2, 'lastname'], [3, 'phone'], [4, 'email']]
 },
 hideIdentifier: true,
-url: 'live_edit.php'
+url: 'dbphp/live_edit.php'
 });
 });
