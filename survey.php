@@ -16,6 +16,11 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+        
+        <header>
+            <h1><a href="index.php" id="logo"><img src="images/logo.jpg" alt="Disney World Logo"></a></h1>
+            <a href="survey.php" id="survey">Take Our Disney Survey!</a>
+        </header>
         <?php include('inc/nav.inc') ?>
         <div style="margin-top: 50px; padding-bottom: 20px; border-radius: 10px; max-width: 800px;" class="container">
         <h1 style="color: #67badb;"> Walt Disney World Parks Survey </h1>

@@ -31,7 +31,7 @@
     ?>
 
     <h2 class="titleh2">AJAX DATABASE</h2>
-    <table <table id="data_table" class="table table-striped table-bordered">
+    <table id="data_table" class="table table-striped table-bordered">
         <thead class="thead-dark">
         <tr>
           <th scope="col">ID</th>

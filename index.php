@@ -17,7 +17,7 @@
         <img src="images/disney_world.jpg" alt="Disney World Icons">
     </figure>
 
-    <div id="bottom"> <!--CHECK THAT THIS MAKES SEMANTIC SENSE-->
+    <div id="bottom">
         <div id="weak">"I only hope that we never lose sight of one thing — <br> that it was all started by a mouse." <br> — Walt Disney</div>
 
         <a href="survey.php" id="survey">Take Our Disney Survey!</a>
