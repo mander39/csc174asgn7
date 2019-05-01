@@ -14,7 +14,7 @@
 <body>
 
     <nav class="main-menu">
-        <img src='images/logo.jpg' alt='logo' id='logo'>
+        <a href="index.php"><img src='images/logo.jpg' alt='logo' id='logo'></a>
         <ul>
             <li><a href="#first">Home</a></li>
             <li><a href="#second">Magic Kingdom</a></li>
@@ -62,7 +62,7 @@
   
                 <p>Magic Kingdom is a theme park at the Walt Disney World Resort in Bay Lake, Florida, near Orlando. Owned and operated by The Walt Disney Company through its Parks, Experiences and Products division, the park opened on October 1, 1971, as the first of four theme parks at the resort. The park was initialized by Walt Disney and designed by WED Enterprises. Its layout and attractions are based on Disneyland Park in Anaheim, California, and are dedicated to fairy tales and Disney characters.</p>
 
-                <h3>Must See Attractions:</h3>
+                <h3>Must See <br> Attractions: <br></h3>
                 <ul>
                     <li>Space Mountain</li>
                     <li>Splash Mountain</li>
@@ -76,7 +76,7 @@
 
             </div>
 
-            <footer>
+            <footer class='foot'>
                 <p>@ Team Manhattan | Assignment 7 | CSC 174</p>
             </footer>
 
@@ -102,7 +102,7 @@
   
                 <p>Epcot is a theme park at the Walt Disney World Resort in Bay Lake, Florida. It is owned and operated by The Walt Disney Company through its Parks, Experiences and Products division. Inspired by an unrealized concept developed by Walt Disney, the park opened on October 1, 1982, as EPCOT Center, and was the second of four theme parks built at Walt Disney World, after the Magic Kingdom. Spanning 305 acres (123 ha), more than twice the size of the Magic Kingdom park, Epcot is dedicated to the celebration of human achievement, namely technological innovation and international culture, and is often referred to as a "permanent world's fair".</p>
 
-                <h3>Must See Attractions:</h3>
+                <h3>Must See <br> Attractions: <br></h3>
                 <ul>
                     <li>Soarin'</li>
                     <li>Test Track</li>
@@ -116,7 +116,7 @@
 
             </div>
 
-            <footer>
+            <footer class='foot'>
                 <p>@ Team Manhattan | Assignment 7 | CSC 174</p>
             </footer>
 
@@ -140,7 +140,7 @@
   
                 <p>Disney's Hollywood Studios is a theme park at the Walt Disney World Resort in Bay Lake, Florida, near Orlando. It is owned and operated by The Walt Disney Company through its Parks, Experiences and Products division. Based on a concept by Marty Sklar, Randy Bright, and Michael Eisner, the park opened on May 1, 1989, as the Disney-MGM Studios Theme Park, and was the third of four theme parks built at Walt Disney World. Spanning 135 acres (55 ha), the park is dedicated to the imagined worlds from film, television, music, and theatre, drawing inspiration from the Golden Age of Hollywood.</p>
 
-                <h3>Must See Attractions:</h3>
+                <h3>Must See <br> Attractions: <br></h3>
                 <ul>
                     <li>Star Tours</li>
                     <li>Muppet*Vision 3D</li>
@@ -154,7 +154,7 @@
 
             </div>
 
-            <footer>
+            <footer class='foot'>
                 <p>@ Team Manhattan | Assignment 7 | CSC 174</p>
             </footer>
 
@@ -180,7 +180,7 @@
   
                 <p>Disney's Animal Kingdom is a zoological theme park at the Walt Disney World Resort in Bay Lake, Florida, near Orlando. Owned and operated by The Walt Disney Company through its Parks, Experiences and Consumer Products division, it is the largest theme park in the world, covering 580 acres (230 ha). The park opened on Earth Day, April 22, 1998, and was the fourth theme park built at the resort. The park is dedicated and themed entirely around the natural environment and animal conservation, a philosophy once pioneered by Walt Disney himself.</p>
 
-                <h3>Must See Attractions:</h3>
+                <h3>Must See <br> Attractions: <br></h3>
                 <ul>
                     <li>Flight of Passage</li>
                     <li>Festival of the Lion King</li>
@@ -194,7 +194,7 @@
 
             </div>
 
-            <footer>
+            <footer class='foot'>
                 <p>@ Team Manhattan | Assignment 7 | CSC 174</p>
             </footer>
 
@@ -210,12 +210,14 @@
 
             <div class="content">
   
-                    <div id="weak">"I only hope that we never lose sight of one thing — <br> that it was all started by a mouse." <br> — Walt Disney</div>
-
-                    <a href="survey.php" id="survey">Take Our Disney Survey!</a>
+                    <div class='quote'>"I only hope that we never lose sight of one thing — <br> that it was all started by a mouse." <br> — Walt Disney</div>
 
             </div>
-
+            
+            <div class='survey'>
+                <a href="survey.php" id="survey">Take Our Disney Survey!</a>
+            </div>
+ 
             <footer>
                 <p>@ Team Manhattan | Assignment 7 | CSC 174</p>
             </footer>
