@@ -15,13 +15,11 @@
             <?php } ?>
           <li class="nav-item">
             <?php if(isset($_SESSION['username'])) { ?>
-              <a class="btn btn-danger" href="logout.php">LOGOUT</a>
+              <a class="btn btn-danger" href="dbphp/logout.php">LOGOUT</a>
             <?php } else { ?>
               <a class="btn btn-info" href="login.php">ADMIN LOGIN</a>
             <?php } ?>
           </li>
-          
-          
         </ul>
       </div>
     </nav>

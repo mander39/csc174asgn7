@@ -1,5 +1,5 @@
 <?php
-include_once("connect-db.php");
+include_once "../inc/connect-db.php";
 $input = filter_input_array(INPUT_POST);
 if ($input['action'] == 'edit') {
 	$update_field='';

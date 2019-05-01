@@ -25,7 +25,7 @@
 
     <?php
       // connect to the database
-      include('connect-db.php');
+      include 'inc/connect-db.php';
       // get results from database
       $result = mysqli_query($connection, "SELECT * FROM manderson_phonebook");
     ?>
@@ -55,7 +55,7 @@
         <td id="phone_val<?php echo $row['id'];?>"><?php echo $row['phone']; ?></td>
         <td id="email_val<?php echo $row['id'];?>"><?php echo $row['email']; ?></td>
         <?php if(isset($_SESSION['username'])) { ?>
-        <td class="table-fit"><a class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete ID: <?php echo $row["id"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">🗙</a></td>
+        <td class="table-fit"><a class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete ID: <?php echo $row["id"]; ?>?')" href="dbphp/delete.php?id=<?php echo $row['id']; ?>">🗙</a></td>
       </tr>
       <?php } ?>
       <?php
@@ -64,7 +64,7 @@
     <div>
       <br>
       <?php if(isset($_SESSION['username'])) { ?>
-      <a class="btn btn-info a" href="new.php">NEW ROW</a>
+      <a class="btn btn-info a" href="dbphp/new.php">NEW ROW</a>
       <?php } ?>
     </div>
     </div>
