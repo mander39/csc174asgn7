@@ -21,12 +21,12 @@
             <h1><a href="index.php" id="logo"><img src="images/logo.jpg" alt="Disney World Logo"></a></h1>
             <a href="survey.php" id="survey">Take Our Disney Survey!</a>
         </header>
-        <?php include('inc/nav.inc') ?>
         <div style="margin-top: 50px; padding-bottom: 20px; border-radius: 10px; max-width: 800px;" class="container">
-        <h1 style="color: #67badb;"> Walt Disney World Parks Survey </h1>
-        <div id="surveyElement"></div>
-        <div id="surveyResult"></div>
-        <script type="text/javascript" src="js/survey.js"></script>
-        <div>
+            <h1 style="color: #67badb;"> Walt Disney World Parks Survey </h1>
+            <div id="surveyElement"></div>
+            <div id="surveyResult"></div>
+            <script type="text/javascript" src="js/survey.js"></script>
+        </div>
+        <?php include('inc/nav.inc') ?>
     </body>
 </html>
