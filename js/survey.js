@@ -37,9 +37,40 @@ var json = {
             name: "email",
             title: "Your e-mail"
         }, {
+            type: "text",
+            isRequired: true,
+            name: "city",
+            title: "What city are you in right now?"
+        }, {
+            type: "text",
+            isRequired: true,
+            name: "state",
+            title: "What US state are you in right now? (If you're not in the US, please put what country you are in)"
+        }, {
+            type: "radiogroup",
+            name: "been",
+            title: "Have you ever been to Walt Disney World before?",
+            isRequired: true,
+            colCount: 2,
+            choices: ["Yes", "No"]
+        }, {
+            type: "radiogroup",
+            name: "go",
+            title: "Do you think you would go to Walt Disney World in the future?",
+            isRequired: true,
+            colCount: 2,
+            choices: ["Yes", "No"]
+        }, {
             type: "radiogroup",
             name: "park",
             title: "Which Walt Disney World Park is Your Favorite?",
+            isRequired: true,
+            colCount: 2,
+            choices: ["Magic Kingdom","Epcot","Hollywood Studios","Animal Kingdom", "I'm not sure"]
+        }, {
+            type: "comment",
+            name: "open",
+            title: "Any general comments about Walt Disney World that you would like to share?",
             isRequired: true,
             colCount: 2,
             choices: ["Magic Kingdom","Epcot","Hollywood Studios","Animal Kingdom", "I'm not sure"]
