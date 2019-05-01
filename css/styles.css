@@ -1,26 +1,64 @@
+/************Base Rules****************/
 
-.navbar-brand {
-	padding-left: 200px;
+p { 
+	margin-top: 0;
+    font-family: 'Karla', sans-serif; 
 }
 
-.navbar-nav.ml-auto {
-	padding-right: 150px;
+h1 {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 40% 70%;
+	background-size: auto;
+	font-family: 'Oswald', serif;
 }
 
-.titleh2 {
-	margin-top: 50px;
+h2, h3 {
+	font-family: 'Oswald', serif;
 }
 
-.table-fit {
-	text-align: center;
-	width: 80px;
+footer {
+	justify-content: bottom;
 }
 
-.btn.btn-info.a {
-	margin-top: -20px;
-	margin-bottom: 50px;
+footer p {
+	font-family: 'Shadows Into Light', cursive;
 }
 
-.nav-item.d {
-	margin-right: 10px;
+figcaption {
+	font-size: 12px;
+	font-style: italic;
+}
+/*****************End********************/
+
+
+/************Module Rules****************/
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 960px; 
+	align-self: center;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.content ul {
+	font-family: 'Karla', sans-serif; 
+}
+
+/*******************End**********************/
+
+
+
+/*	State (for dynamic stuff)
+	**************************************** */
+.main-menu .is-current a { 
+	color: black; 
+	background-color: white;
 }
