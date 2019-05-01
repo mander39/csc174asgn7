@@ -57,12 +57,12 @@ survey
             var dataR = "result: " + dataS;
             var firstname = jsonP["fname"];
             var lastname = jsonP["lname"];
-            var phone = jsonP["car"];
+            var phone = jsonP["park"];
             //var phone= jsonP.car[0]; checkbox, array is used 
             var email = jsonP["email"];
             $.ajax({
+                url: "dbphp/postme.php",
                 type: "POST",
-                url: "postme.php",
                 data: { firstname: firstname, lastname: lastname, phone: phone, email: email }       
             })
         document
