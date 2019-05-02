@@ -18,7 +18,6 @@ var defaultThemeColors = Survey
 Survey
     .StylesManager
     .applyTheme();
-
 var json = {
     questions: [
         {
@@ -75,26 +74,61 @@ var json = {
     ]
 };
 
+
 window.survey = new Survey.Model(json);
+
 survey
+
     .onComplete
+
     .add(function (result) {
+
             var dataS = JSON.stringify(result.data);
+
             // Turning JSON string into onjects
+
             var jsonP = JSON.parse(dataS);
+
             var dataR = "result: " + dataS;
-            var firstname = jsonP["fname"];
-            var lastname = jsonP["lname"];
-            var phone = jsonP["park"];
-            //var phone= jsonP.car[0]; checkbox, array is used 
+
+            var first = jsonP["fname"];
+
+            var last = jsonP["lname"];
+
             var email = jsonP["email"];
+
+            var city = jsonP["city"];
+
+            var state = jsonP["state"];
+
+            var hasbeen = jsonP["been"];
+
+            var wouldgo = jsonP["go"];
+
+            var favorite = jsonP["park"];
+
+            var comment = jsonP["open"];
+
+            //var choice= jsonP.car[0]; checkbox, array is used 
+
+            var email = jsonP["email"];
+
             $.ajax({
+
                 url: "dbphp/postme.php",
+
                 type: "POST",
-                data: { firstname: firstname, lastname: lastname, phone: phone, email: email }       
+
+                data: { first: first, last: last, email: email, city: city, state: state, hasbeen: hasbeen, wouldgo: wouldgo, favorite: favorite, comment: comment }       
+
             })
+
         document
+
             //.querySelector('#surveyResult')
+
             //.innerHTML = dataS;
+
     });
+
 $("#surveyElement").Survey({model: survey, onValueChanged: surveyValueChanged});

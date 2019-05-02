@@ -14,14 +14,19 @@ include '../inc/connect-db.php';
 
 // check if the form has been submitted. If it has, start to process the form and save it to the database
 	// get form data, making sure it is valid
-	$firstname = '';
-	$lastname = '';
-	$phone = '';
-	$email = '';
+$first = '';
+$last = '';
+$email = '';
+$city = '';
+$state = '';
+$hasbeen = '';
+$wouldgo = '';
+$favorite = '';
+$comment = '';
 
 	
 		// save the data to the database
-		$result = mysqli_query($connection, "INSERT INTO manderson_phonebook (firstname, lastname, phone, email) VALUES ('$firstname', '$lastname', '$phone', '$email')");
+		$result = mysqli_query($connection, "INSERT INTO survey2 (first, last, email, city, state, hasbeen, wouldgo, favorite, comment) VALUES ('$first', '$last', '$email', '$city', '$state', '$hasbeen', '$wouldgo', '$favorite', '$comment')");
 
 		// once saved, redirect back to the view page
 		header("Location: ../info.php");

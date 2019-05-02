@@ -83,6 +83,12 @@ figcaption {
 	position: relative;
 }
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1500px;
+    }
+}
+
 .foot {
 	border-top: 3px solid #5fe2c2;
 }
