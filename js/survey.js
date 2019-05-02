@@ -63,7 +63,7 @@ var json = {
         }, {
             type: "radiogroup",
             name: "park",
-            title: "Which Walt Disney World Park is Your Favorite?",
+            title: "Which Walt Disney World Park is your favorite?",
             isRequired: true,
             colCount: 2,
             choices: ["Magic Kingdom","Epcot","Hollywood Studios","Animal Kingdom", "I'm not sure"]
@@ -71,9 +71,6 @@ var json = {
             type: "comment",
             name: "open",
             title: "Any general comments about Walt Disney World that you would like to share?",
-            isRequired: true,
-            colCount: 2,
-            choices: ["Magic Kingdom","Epcot","Hollywood Studios","Animal Kingdom", "I'm not sure"]
         }
     ]
 };
